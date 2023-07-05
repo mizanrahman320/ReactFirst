@@ -6,6 +6,7 @@ import Card from './Component/CardList'
 import CardProps from './Component/CardProps'
 import CardClass from './Component/CardClass'
 import State from './Component/State'
+import Index from './Component/Conditional/index'
 
 
 function App() {
@@ -35,9 +36,15 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Card/>
+      <h1>**********************************</h1>
       <CardProps name="This is Mizan" description="hello desc"/>
+      <h1>**********************************</h1>
       <CardClass name="This is class"/>
+      <h1>**********************************</h1>
       <State/>
+      <h1>**********************************</h1>
+      <Index/>
+      <h1>**********************************</h1>
     </>
   )
 }
