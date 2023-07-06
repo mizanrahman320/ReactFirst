@@ -7,6 +7,7 @@ import CardProps from './Component/CardProps'
 import CardClass from './Component/CardClass'
 import State from './Component/State'
 import Index from './Component/Conditional/index'
+import EventEx from './Component/EventHandling/EventEx'
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
       <State/>
       <h1>**********************************</h1>
       <Index/>
+      <h1>**********************************</h1>
+      <EventEx/>
       <h1>**********************************</h1>
     </>
   )

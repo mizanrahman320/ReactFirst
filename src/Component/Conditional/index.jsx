@@ -9,7 +9,7 @@ export default class index extends Component {
       super(props)
     
       this.state = {
-         isLooged:true
+         isLooged:false
       }
     }
     
