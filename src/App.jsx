@@ -8,6 +8,7 @@ import CardClass from './Component/CardClass'
 import State from './Component/State'
 import Index from './Component/Conditional/index'
 import EventEx from './Component/EventHandling/EventEx'
+import EventBind from './Component/EventBinding/EventBind'
 
 
 function App() {
@@ -47,6 +48,8 @@ function App() {
       <Index/>
       <h1>**********************************</h1>
       <EventEx/>
+      <h1>**********************************</h1>
+      <EventBind/>
       <h1>**********************************</h1>
     </>
   )
