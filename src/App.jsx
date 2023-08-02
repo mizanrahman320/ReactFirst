@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 import Card from './Component/CardList'
 import CardProps from './Component/CardProps'
 import CardClass from './Component/CardClass'
@@ -11,6 +11,7 @@ import EventEx from './Component/EventHandling/EventEx'
 import EventBind from './Component/EventBinding/EventBind'
 import ReactHook from './Component/React_Hook'
 import EventBub from './Component/EventBubbling/EventBub'
+import Appheader from './Component/layout/header'
 
 
 function App() {
@@ -18,6 +19,11 @@ function App() {
 
   return (
     <>
+      <div>
+        <header>
+          <Appheader/>
+        </header>
+      </div>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -56,6 +62,7 @@ function App() {
       <ReactHook/>
       <h1>**********************************</h1>
       <EventBub/>
+      
     </>
   )
 }
