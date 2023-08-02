@@ -9,6 +9,8 @@ import State from './Component/State'
 import Index from './Component/Conditional/index'
 import EventEx from './Component/EventHandling/EventEx'
 import EventBind from './Component/EventBinding/EventBind'
+import ReactHook from './Component/React_Hook'
+import EventBub from './Component/EventBubbling/EventBub'
 
 
 function App() {
@@ -51,6 +53,9 @@ function App() {
       <h1>**********************************</h1>
       <EventBind/>
       <h1>**********************************</h1>
+      <ReactHook/>
+      <h1>**********************************</h1>
+      <EventBub/>
     </>
   )
 }
